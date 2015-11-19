@@ -1,0 +1,26 @@
+{
+  "name": "angularHighlight",
+  "version": "0.0.0",
+  "authors": [
+    "bikram"
+  ],
+  "description": "highlights the search term from ng-repeat",
+  "main": "angular-filter.js",
+  "moduleType": [
+    "amd"
+  ],
+  "keywords": [
+    "angular",
+    "ng-repeat",
+    "highlight"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "app/bower_components",
+    "test",
+    "tests"
+  ]
+}
