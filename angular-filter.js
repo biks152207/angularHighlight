@@ -1,16 +1,1 @@
-(function(){
-  'use strict';
-  var Myfilter = function($sce){
-    return function(input, phrase){
-     if (phrase){
-       input = input.replace(new RegExp('('+phrase+')', 'gi'),
-        '<span class="highlighted">$1</span>');
-     }
-     return $sce.trustAsHtml(input);
-   };
-  };
-  angular.module('angular-highlighter', [])
-    .filter('angularHighligher',[
-      Myfilter
-    ]);
-})();
+!function(){"use strict";var n=function(n){return function(r,t){return t&&(r=r.replace(new RegExp("("+t+")","gi"),'<span class="highlighted">$1</span>')),n.trustAsHtml(r)}};angular.module("angular-highlighter",[]).filter("angularHighligher",[n])}();
